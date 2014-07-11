@@ -32,4 +32,4 @@ group :production do
 end
 
 gem 'rspec-core', '2.13.0'
-gem 'sprockets-rails', '2.1.2'
+gem 'sprockets-rails', '2.0.0'
