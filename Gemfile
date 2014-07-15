@@ -3,6 +3,8 @@ ruby '2.1.2'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.8'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -14,6 +16,7 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
+gem 'sass', '3.3.7'
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
@@ -31,4 +34,4 @@ group :production do
 end
 
 gem 'rspec-core', '2.13.0'
-gem 'sprockets-rails', '2.0.0'
+gem 'sprockets-rails', '2.0.1'
